@@ -20,7 +20,7 @@ const UserProfile = () => {
     }
   }
   const datasUser = useSelector((state) => state.user)
-  console.log("datasUser", datasUser)
+  //console.log("datasUser", datasUser)
 
   useEffect(() => {
     fetchRepos()
